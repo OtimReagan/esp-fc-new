@@ -491,7 +491,7 @@ struct ModelState
   AltitudeState altitude;
 
   SetpointState setpoint;
-  Control::Pid innerPid[AXIS_COUNT_RPYT];
+  Control::Adrc innerPid[AXIS_COUNT_RPYT];
   Control::Pid outerPid[AXIS_COUNT_RPYT];
 
   MixerState mixer;
